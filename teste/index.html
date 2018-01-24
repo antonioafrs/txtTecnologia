@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste Front-End</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+
+    <div class="container bg">
+        <div class="row">
+                <div class="col-md-6 logo">
+                    <img src="img/logo.png" alt=""> FULLSTACK
+                </div>
+                <div class="col-md-6 busca">
+                    <form action="">
+                        <input type="text" placeholder="BUSCA por um veículo">
+                    </form>
+                </div>
+                <div class=" col-md-12 add">
+                    <strong>VEÍCULO</strong>
+                        <a data-toggle="modal" href="#myModal">+</a>
+                </div>
+        </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header modal-content-header">
+              <h4 class="modal-title" id="myModalLabel">Novo Veículo</h4>
+            </div>
+            <div class="modal-body">
+              
+                    <div class="row">
+                            <form class="col s12">
+                              <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Veículo</label>
+                                </div>
+                                <div class="input-field col s6">
+                                  <input id="last_name" type="text" class="validate">
+                                  <label for="last_name">Marca</label>
+                                </div>
+                              </div>
+                              <div class="row">
+                                    <div class="input-field col s6">
+                                            <input id="last_name" type="text" class="validate">
+                                            <label for="last_name">Ano</label>
+                                    </div>
+                                    <div class="switch">
+                                            <label>
+                                              <input type="checkbox">
+                                              <span class="lever"></span>
+                                              Vendido
+                                            </label>
+                                    </div>
+                                  </div>
+                              <div class="row">
+                                    <div class="input-field col s12">
+                                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                            <label for="textarea1">Descrição</label>
+                                    </div>
+                              </div>
+                              
+                            
+                          </div>
+
+            </div>
+            <div class="modal-footer modal-content-footer">
+                <button type="button" class="modal-button">ADD</button>
+                <button type="button" class="modal-button" data-dismiss="modal">FECHAR</button>
+            </div>
+           </form>
+          </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+        <div class="row">
+            <div class="col-md-6 lista">
+                <p>Lista de veículos</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="marca">FIAT</span>
+                            <span class="modelo">Palio G5 SP.1.6 Flex</span>
+                            <span class="glyphicon glyphicon-tag icon" aria-hidden="true"></span>
+                            <span class="ano">2016</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="marca">FIAT</span>
+                            <span class="modelo">Palio G5 SP.1.6 Flex</span>
+                            <span class="glyphicon glyphicon-tag icon" aria-hidden="true"></span>
+                            <span class="ano">2016</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="marca">FIAT</span>
+                            <span class="modelo">Palio G5 SP.1.6 Flex</span>
+                            <span class="glyphicon glyphicon-tag icon" aria-hidden="true"></span>
+                            <span class="ano">2016</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="marca">FIAT</span>
+                            <span class="modelo">Palio G5 SP.1.6 Flex</span>
+                            <span class="glyphicon glyphicon-tag icon2" aria-hidden="true"></span>
+                            <span class="ano">2016</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="marca">FIAT</span>
+                            <span class="modelo">Palio G5 SP.1.6 Flex</span>
+                            <span class="glyphicon glyphicon-tag icon" aria-hidden="true"></span>
+                            <span class="ano">2016</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 detalhe">
+                <p>Detalhes</p>
+                <div class="box-content">
+                    <span class="modelo">Palio G5 SP.1.6 Flex</span>
+                    <div class="row">
+                        <div class="col-md-6 marca">
+                            Marca
+                            <p>FIAT</p>
+                        </div>
+                        <div class="col-md-6 ano">
+                            Ano
+                            <p>2016</p>
+                        </div>
+                        <div class="col-md-12 descricao">
+                            <p>
+                                O Palio é um automóvel compacto produzido pela Fiat,
+                                tendo sido projetado para Mercados emergentes os da América
+                                Latina, África do Sul, Leste Europeu e alguns países Asiáticos.
+                                Seu projeto foi iniciado em 1992, pelo Centro de Estilo da Fiat
+                                junto ao estúdio I.DE.A.
+                                <br><br>
+                                A Fiat já contava com um produto de tamanho similar para o mercado europeu, o Punto, lançado em 1993 para substituir o Uno, que já contava com 12 anos de mercado. O projeto, chamado de 178, teria uma suspensão mais simples e robusta e, ao contrário do Punto, daria origem uma grande família de produtos.
+                            </p>
+                        </div>
+                        <div class="col-md-12">
+                            <button data-toggle="modal" data-target="#myModal">
+                                <span class="glyphicon glyphicon-pencil icon" aria-hidden="true"></span>
+                                EDITAR
+                            </button>
+                            <span class="glyphicon glyphicon-tag icon2" aria-hidden="true"></span>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+</html>

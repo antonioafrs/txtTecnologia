@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+*:focus {outline: 0;}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.bg{
+    background: #e2e4e1;
+}
+.logo{
+
+    height: 50px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    line-height: 50px;
+    background:  #364147;
+}
+.logo img{
+   margin: -5px 8px 0 10px;
+}
+.busca{
+    background: #2a3138;
+    height: 50px;
+    display: block;
+}
+.busca input{
+    width: 100%;
+    height: 50px;
+    background: #2a3138;
+    border: none !important;
+    color: #ccc;
+    font-size: 14px;
+}
+.busca input::after{
+    width: 100%;
+    height: 50px;
+    background: #2a3138;
+    border: none !important;
+    color: #ccc;
+    font-size: 14px;
+}
+.add{
+    border-bottom: solid 1px #babbb9;
+    margin: 60px 0 0 40px;;
+    display: block;
+    width: 93%;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+.add strong{
+    margin: 0 0 0 -20px;
+    font-weight: 500;
+}
+.add a {
+    background: #354046;
+    width: 28px;
+    height: 28px;
+    border-radius: 75%;
+    float: right;
+    line-height: 28px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: -10px;
+}
+.add a:hover {
+   text-decoration: none;
+}
+
+.lista{
+    padding: 0 0 0 37px;
+    margin: 25px 0 0 0;
+    font-weight: 500;
+}
+.lista ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.lista ul li a{
+    width: 98%;
+    height: 90px;
+    background: #fff;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none; 
+}
+.lista ul li .marca {
+    color: #364147;
+    font-size: 17px;
+    font-weight: 500;
+    display: block;
+}
+.lista ul li .modelo {
+    color: #1d7555;
+    font-size: 17px;
+    font-weight: 500;
+    display: block;
+}
+.lista ul li .ano {
+    color: #798083;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+}
+.lista ul li .icon {
+    float: right;
+    color: #354046;
+    margin: -15px 15px 0 0;
+    font-size: 18px;
+}
+.lista ul li .icon2 {
+    float: right;
+    color: #189c6c;
+    margin: -15px 15px 0 0;
+    font-size: 18px;
+}
+.lista ul li a:hover{
+    background: #f1f2f0;
+    text-decoration: none;
+
+}
+.lista ul li a:visited{
+    text-decoration: none; 
+}
+
+.detalhe{
+    padding: 0 0 0 37px;
+    margin: 25px 0 0 0;
+    font-weight: 500;
+}
+
+.detalhe .box-content{
+    width: 93%;
+    height: 490px;
+    display: block;
+    background: #f1f2f0;
+    padding: 15px 10px 10px 10px;
+    margin-bottom: 100px;
+}
+.detalhe .box-content .modelo{
+    color: #4b8d74;
+    font-size: 18px;
+    font-weight: 500;
+}
+.detalhe .box-content .marca{
+    color: #364147;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.detalhe .box-content .marca p{
+    color: #8f9597;
+    font-size: 16px;
+    font-weight: 500;
+}
+.detalhe .box-content .ano{
+    color: #364147;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.detalhe .box-content .ano p{
+    color: #8f9597;
+    font-size: 16px;
+    font-weight: 500;
+}
+.detalhe .box-content .descricao p{
+    color: #454545;
+    font-size: 14px;
+    margin-top: 25px;
+    border-bottom: solid 1px #babbb9;
+    padding-bottom: 50px;
+}
+.detalhe .box-content button{
+    background: #45535a;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
+.detalhe .box-content button .icon{
+    float: left;
+    line-height: 50px;
+    margin-left: 15px;
+}
+.detalhe .box-content .icon2 {
+    float: right;
+    color: #354046;
+    margin: 15px 25px 0 0;
+    font-size: 22px;
+}
+
+.modal-content-header{
+    border: none;
+}
+.modal-content-footer{
+    border: none;
+}
+.modal-content-header h4{
+    font-size: 22px;
+    font-weight: 500;
+    color:#354046;
+}
+
+.modal-button{
+    background: #45535a;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: #ccc;
+    font-size: 15px;
+}
+
